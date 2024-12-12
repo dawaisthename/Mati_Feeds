@@ -14,11 +14,13 @@ function LandingPage() {
       <Navbar />
       <Hero />
       <Products />
+      <BannerTwo />
       <AboutUs />
       <QualityAssurance />
-      <BannerTwo />
-      <Contact />
       <Banner />
+
+      <Contact />
+
       <Footer />
     </>
   );

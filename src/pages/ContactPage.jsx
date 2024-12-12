@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+
 import emailjs from "@emailjs/browser";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -149,7 +150,10 @@ function ContactPage() {
                   📍 <strong>Address:</strong> 1234 Street Name, City, Country
                 </p>
                 <p className="text-gray-800">
-                  📞 <strong>Phone:</strong> +1 (234) 567-8901
+                  📞 <strong>Phone:</strong> +251-932-13-13-00
+                </p>
+                <p className="text-gray-800">
+                  📞 <strong>Phone:</strong> +251-910-04-00-44
                 </p>
                 <p className="text-gray-800">
                   📧 <strong>Email:</strong> contact@yourdomain.com
@@ -162,13 +166,12 @@ function ContactPage() {
               <h3 className="text-xl font-semibold">Our Location</h3>
               <div className="w-full h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.71631887539!2d38.786441910597155!3d8.99822969102462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85034af98549%3A0x47805f10b82bafdd!2sBole%20Community%20High%20School!5e0!3m2!1sen!2set!4v1734032281152!5m2!1sen!2set"
-                  style={{ border: 0 }}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4688.177695550633!2d38.7606221580901!3d8.971510472863132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f1e308b%3A0xb74dad85f25c42c9!2sSheger%20City%20Administration!5e0!3m2!1sen!2set!4v1734038538027!5m2!1sen!2set"
                   className="w-full h-full rounded-lg"
                   allowFullScreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
+                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4688.177695550633!2d38.7606221580901!3d8.971510472863132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f1e308b%3A0xb74dad85f25c42c9!2sSheger%20City%20Administration!5e0!3m2!1sen!2set!4v1734038538027!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
               </div>
             </div>
           </div>

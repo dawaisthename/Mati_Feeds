@@ -113,28 +113,23 @@ const Footer = () => {
           <h4 className="font-bold text-[#A8EC0E] mb-4">Support</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="hover:text-[#A8EC0E]">
+              <a href="/contact" className="hover:text-[#A8EC0E]">
                 Help center
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#A8EC0E]">
+              <a href="/about" className="hover:text-[#A8EC0E]">
                 Terms of service
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#A8EC0E]">
+              <a href="/" className="hover:text-[#A8EC0E]">
                 Legal
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#A8EC0E]">
+              <a href="/" className="hover:text-[#A8EC0E]">
                 Privacy policy
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-[#A8EC0E]">
-                Status
               </a>
             </li>
           </ul>

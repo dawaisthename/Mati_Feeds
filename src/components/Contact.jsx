@@ -64,10 +64,11 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-[#A8EC0E] to-[#ffffff90] py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
-      <h2 className="text-3xl font-bold text-white text-center mb-8">
-        Contact Us
+    <section className="bg-gradient-to-r from-[#A8EC0E] via-[#A8EC0E70] to-[#ffffff30] py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
+      <h2 className="text-4xl font-bold text-center mb-8">
+        Contact <span className="text-[#A8EC0E]">Us</span>
       </h2>
+
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Form Section */}
         <div>
@@ -147,26 +148,6 @@ const Contact = () => {
             <h3 className="text-lg text-white font-bold">Based in</h3>
             <p>Ethiopia</p>
           </div>
-          {/* <div className="flex items-center space-x-4 mt-4">
-            <a
-              href="#"
-              className="p-3 bg-white rounded-full hover:bg-[#ffffffcc] text-[#A8EC0E] transition"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-              href="#"
-              className="p-3 bg-white rounded-full hover:bg-[#ffffffcc] text-[#A8EC0E] transition"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              href="#"
-              className="p-3 bg-white rounded-full hover:bg-[#ffffffcc] text-[#A8EC0E] transition"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-          </div> */}
         </div>
       </div>
     </section>

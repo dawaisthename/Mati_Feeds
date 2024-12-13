@@ -7,7 +7,7 @@ const QualityAssurance = () => {
   return (
     <section className="bg-gradient-to-r from-[#A8EC0E] to-white py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
+        <h2 className="text-3xl sm:text-5xl font-bold mb-6 leading-tight">
           Our Commitment to <span className="text-[#A8EC0E]">Quality</span>
         </h2>
         <p className="text-lg sm:text-xl mb-12 text-gray-700 max-w-3xl mx-auto">

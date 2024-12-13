@@ -1,4 +1,5 @@
 import React from "react";
+import blog from "../assets/images/blog.jpg";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -21,7 +22,7 @@ function BlogPage() {
           </header>
 
           <img
-            src="https://via.placeholder.com/1200x600"
+            src={blog}
             alt="Mati Feeds Image"
             className="w-full h-72 object-cover mb-8 rounded-lg shadow-lg"
           />

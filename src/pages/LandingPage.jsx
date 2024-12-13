@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Products from "../components/Products";
 import AboutUs from "../components/AboutUs";
 import QualityAssurance from "../components/QualityAssurance";
-import Contact from "../components/Contact";
+import FAQPage from "../components/FAQPage";
 import Banner from "../components/Banner";
 import BannerTwo from "../components/BannerTwo";
 import Footer from "../components/Footer";
@@ -19,7 +19,7 @@ function LandingPage() {
       <QualityAssurance />
       <Banner />
 
-      <Contact />
+      <FAQPage />
 
       <Footer />
     </>

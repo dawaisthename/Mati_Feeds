@@ -1,5 +1,6 @@
 import React from "react";
 import workers from "../assets/images/workers.jpg";
+import { Link } from "react-router-dom";
 import workers3 from "../assets/images/workers3.png";
 
 function AboutUs() {
@@ -53,6 +54,13 @@ function AboutUs() {
               src={workers3}
               alt="office content 2"
             />
+            <div class="mt-8 flex justify-center items-center">
+              <Link to="/about">
+                <button class="px-3 py-2 bg-[#A8EC0E] text-white font-light rounded-lg shadow-md hover:bg-white hover:text-[#A8EC0E] focus:outline-none focus:ring-2 focus:ring-blue-500">
+                  Learn More
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

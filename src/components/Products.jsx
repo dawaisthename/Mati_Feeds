@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import diary from "../assets/images/diary.jpg";
 import fetting from "../assets/images/fetting.jpg";
 import poultry from "../assets/images/poultry.jpg";
@@ -65,9 +66,11 @@ function Products() {
           </div>
         </div>
         <div class="mt-16 flex justify-center">
-          <button class="px-6 py-3 bg-[#A8EC0E] text-white font-semibold rounded-lg shadow-md hover:bg-white hover:text-[#A8EC0E] focus:outline-none focus:ring-2 focus:ring-blue-500">
-            See More
-          </button>
+          <Link to="contact">
+            <button class="px-6 py-3 bg-[#A8EC0E] text-white font-semibold rounded-lg shadow-md hover:bg-white hover:text-[#A8EC0E] focus:outline-none focus:ring-2 focus:ring-blue-500">
+              Contact us
+            </button>
+          </Link>
         </div>
       </div>
     </section>

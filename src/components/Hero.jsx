@@ -25,7 +25,7 @@ function Hero() {
             <Link to="contact">
               <a
                 href="#"
-                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#A8EC0E] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#A8EC0E] hover:bg-[white] hover:text-[#A8EC0E] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
                 Get In Touch
                 <svg

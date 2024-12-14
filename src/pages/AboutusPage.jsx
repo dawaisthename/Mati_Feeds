@@ -24,7 +24,7 @@ function AboutusPage() {
             <p className="text-xl md:text-2xl mb-6">
               Driving innovation in animal nutrition for a sustainable future.
             </p>
-            <button className="px-8 py-4 bg-[#A8EC0E] text-white font-bold rounded-lg shadow-md hover:bg-[#94cc0e] transition ease-in-out duration-300">
+            <button className="px-8 py-4 bg-[#9CDA0C] text-white font-bold rounded-lg shadow-md hover:bg-[#94cc0e] transition ease-in-out duration-300">
               Learn More
             </button>
           </div>
@@ -32,12 +32,12 @@ function AboutusPage() {
 
         {/* Our Story Section: Timeline Style */}
         <section className="py-16 px-6">
-          <h2 className="text-3xl font-bold text-center text-[#A8EC0E] mb-8">
+          <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
             Our Journey
           </h2>
           <div className="max-w-7xl mx-auto">
             <div className="relative">
-              <div className="absolute left-0 top-0 h-full w-1 bg-[#A8EC0E]" />
+              <div className="absolute left-0 top-0 h-full w-1 bg-[#9CDA0C]" />
               <div className="flex flex-col md:flex-row items-start md:space-x-8">
                 {/* Timeline Item 1 */}
                 <div className="flex flex-col items-start mb-8 md:mb-0 md:w-1/3 relative z-10">
@@ -50,7 +50,7 @@ function AboutusPage() {
                       industry, leveraging years of experience.
                     </p>
                   </div>
-                  <div className="absolute -left-4 top-2 bg-[#A8EC0E] w-8 h-8 rounded-full shadow-lg"></div>
+                  <div className="absolute -left-4 top-2 bg-[#9CDA0C] w-8 h-8 rounded-full shadow-lg"></div>
                 </div>
 
                 {/* Timeline Item 2 */}
@@ -64,7 +64,7 @@ function AboutusPage() {
                       premium animal feed products for the local market.
                     </p>
                   </div>
-                  <div className="absolute -left-4 top-2 bg-[#A8EC0E] w-8 h-8 rounded-full shadow-lg"></div>
+                  <div className="absolute -left-4 top-2 bg-[#9CDA0C] w-8 h-8 rounded-full shadow-lg"></div>
                 </div>
 
                 {/* Timeline Item 3 */}
@@ -78,7 +78,7 @@ function AboutusPage() {
                       we're exploring opportunities for export.
                     </p>
                   </div>
-                  <div className="absolute -left-4 top-2 bg-[#A8EC0E] w-8 h-8 rounded-full shadow-lg"></div>
+                  <div className="absolute -left-4 top-2 bg-[#9CDA0C] w-8 h-8 rounded-full shadow-lg"></div>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ function AboutusPage() {
 
         {/* Core Values Section: Cards with Hover Effect */}
         <section className="mb-20 px-6 ">
-          <h2 className="text-3xl font-bold text-center text-[#A8EC0E] mb-8">
+          <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
             Our Core Values
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -116,7 +116,7 @@ function AboutusPage() {
         </section>
 
         {/* Mission and Vision: Circular Design */}
-        <section className="py-16 px-6 bg-[#A8EC0E] text-white">
+        <section className="py-16 px-6 bg-[#9CDA0C] text-white">
           <h2 className="text-3xl font-bold text-center mb-12">
             Our Mission & Vision
           </h2>
@@ -149,7 +149,7 @@ function AboutusPage() {
 
         {/* Team Section: Leadership Team */}
         <section className="py-10 px-6">
-          <h2 className="text-3xl font-bold text-center text-[#A8EC0E] mb-8">
+          <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
             Meet Our Leadership Team
           </h2>
           <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
@@ -203,14 +203,14 @@ function AboutusPage() {
         {/* Footer Section with CTA */}
         <section className="py-5">
           <div className="text-center">
-            <h2 className="text-3xl text-[#A8EC0E] font-bold mb-4">
+            <h2 className="text-3xl text-[#9CDA0C] font-bold mb-4">
               Join Our Journey
             </h2>
             <p class="text-2xl font-light text-center text-black dark:text-white mb-12">
               Together, we can build a more sustainable future in farming and
               animal nutrition.
             </p>
-            <button className="px-8 py-4 bg-white text-[#A8EC0E] font-bold rounded-lg shadow-md hover:bg-[#94cc0e] transition ease-in-out duration-300">
+            <button className="px-8 py-4 bg-white text-[#9CDA0C] font-bold rounded-lg shadow-md hover:bg-[#94cc0e] transition ease-in-out duration-300">
               Contact Us
             </button>
           </div>

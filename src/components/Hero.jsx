@@ -15,7 +15,7 @@ function Hero() {
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-5xl dark:text-white">
               Feed Well Agro Fauna Trading PLC
             </h1>
-            <h3 class="max-w-2xl mb-6 font-bold text-[#A8EC0E] lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">
+            <h3 class="max-w-2xl mb-6 font-bold text-[#9CDA0C] lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">
               Innovative Animal Nutrition Solutions
             </h3>
             <p class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -25,7 +25,7 @@ function Hero() {
             <Link to="contact">
               <a
                 href="#"
-                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#A8EC0E] hover:bg-[white] hover:text-[#A8EC0E] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#9CDA0C] hover:bg-[white] hover:text-[#9CDA0C] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
               >
                 Get In Touch
                 <svg
@@ -57,7 +57,7 @@ function Hero() {
       {/* Our Clients section starts */}
       <section class="bg-white dark:bg-gray-900 py-16">
         <div class="max-w-screen-xl mx-auto px-4">
-          <h2 class="text-4xl font-extrabold text-center text-[#A8EC0E] dark:text-white mb-12">
+          <h2 class="text-4xl font-extrabold text-center text-[#9CDA0C] dark:text-white mb-12">
             Our Clients
           </h2>
           <p class="text-2xl font-light text-center text-dark dark:text-white mb-12">

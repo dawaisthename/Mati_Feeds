@@ -8,7 +8,7 @@ function Products() {
   return (
     <section class="py-16 bg-white dark:bg-gray-900">
       <div class="max-w-screen-xl mx-auto px-4">
-        <h2 class="text-4xl font-extrabold text-center text-[#A8EC0E] dark:text-white mb-12">
+        <h2 class="text-4xl font-extrabold text-center text-[#9CDA0C] dark:text-white mb-12">
           Our Products
         </h2>
         <p class="text-2xl font-light text-center text-dark dark:text-white mb-12">
@@ -67,7 +67,7 @@ function Products() {
         </div>
         <div class="mt-16 flex justify-center">
           <Link to="contact">
-            <button class="px-6 py-3 bg-[#A8EC0E] text-white font-semibold rounded-lg shadow-md hover:bg-white hover:text-[#A8EC0E] focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button class="px-6 py-3 bg-[#9CDA0C] text-white font-semibold rounded-lg shadow-md hover:bg-white hover:text-[#9CDA0C] focus:outline-none focus:ring-2 focus:ring-blue-500">
               Contact us
             </button>
           </Link>

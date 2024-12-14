@@ -9,7 +9,7 @@ function AboutUs() {
       {/* <div class="max-w-screen-xl mx-auto px-4 mb-16">
         <div class="flex flex-col md:flex-row items-center gap-12">
           <div class="md:w-1/2 text-center md:text-left">
-            <h2 class="text-3xl font-extrabold text-[#A8EC0E] dark:text-white mb-4">
+            <h2 class="text-3xl font-extrabold text-[#9CDA0C] dark:text-white mb-4">
               Who Are We
             </h2>
             <p class="text-lg text-gray-500 dark:text-gray-400 mb-6">
@@ -32,7 +32,7 @@ function AboutUs() {
       <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="text-3xl font-extrabold text-[#A8EC0E] dark:text-white mb-4">
+            <h2 class="text-3xl font-extrabold text-[#9CDA0C] dark:text-white mb-4">
               Who Are We
             </h2>
 
@@ -56,7 +56,7 @@ function AboutUs() {
             />
             <div class="mt-8 flex justify-center items-center">
               <Link to="/about">
-                <button class="px-3 py-2 bg-[#A8EC0E] text-white font-light rounded-lg shadow-md hover:bg-white hover:text-[#A8EC0E] focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button class="px-3 py-2 bg-[#9CDA0C] text-white font-light rounded-lg shadow-md hover:bg-white hover:text-[#9CDA0C] focus:outline-none focus:ring-2 focus:ring-blue-500">
                   Learn More
                 </button>
               </Link>
@@ -76,7 +76,7 @@ function AboutUs() {
           </div>
 
           <div class="md:w-1/2 text-center md:text-left">
-            <h2 class="text-3xl font-extrabold text-[#A8EC0E] dark:text-white mb-4">
+            <h2 class="text-3xl font-extrabold text-[#9CDA0C] dark:text-white mb-4">
               Our Mission
             </h2>
             <p class="text-lg text-gray-500 dark:text-gray-400 mb-6">

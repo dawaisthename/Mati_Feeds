@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo and Copyright Section */}
         <div>
-          <h3 className="text-xl font-bold text-[#A8EC0E] mb-4">Mati Feeds</h3>
+          <h3 className="text-xl font-bold text-[#9CDA0C] mb-4">Mati Feeds</h3>
           <p className="text-sm mb-4 leading-6">
             Copyright © 2024 Mati Feeds Ltd. <br />
             All rights reserved
@@ -62,19 +62,19 @@ const Footer = () => {
           <div className="flex space-x-4">
             <a
               href="#"
-              className="p-2 bg-[#A8EC0E] text-white rounded-full hover:bg-white hover:text-[#A8EC0E] transition"
+              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition"
             >
               <FaFacebook />
             </a>
             <a
               href="#"
-              className="p-2 bg-[#A8EC0E] text-white rounded-full hover:bg-white hover:text-[#A8EC0E] transition"
+              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition"
             >
               <FaTwitter />
             </a>
             <a
               href="#"
-              className="p-2 bg-[#A8EC0E] text-white rounded-full hover:bg-white hover:text-[#A8EC0E] transition"
+              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition"
             >
               <FaInstagramSquare />
             </a>
@@ -83,25 +83,25 @@ const Footer = () => {
 
         {/* Company Links */}
         <div>
-          <h4 className="font-bold text-[#A8EC0E] mb-4">Company</h4>
+          <h4 className="font-bold text-[#9CDA0C] mb-4">Company</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="/" className="hover:text-[#A8EC0E]">
+              <a href="/" className="hover:text-[#9CDA0C]">
                 Home
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:text-[#A8EC0E]">
+              <a href="/about" className="hover:text-[#9CDA0C]">
                 About
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-[#A8EC0E]">
+              <a href="/contact" className="hover:text-[#9CDA0C]">
                 Contact Us
               </a>
             </li>
             <li>
-              <a href="/blog" className="hover:text-[#A8EC0E]">
+              <a href="/blog" className="hover:text-[#9CDA0C]">
                 Blog
               </a>
             </li>
@@ -110,25 +110,25 @@ const Footer = () => {
 
         {/* Support Links */}
         <div>
-          <h4 className="font-bold text-[#A8EC0E] mb-4">Support</h4>
+          <h4 className="font-bold text-[#9CDA0C] mb-4">Support</h4>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="/contact" className="hover:text-[#A8EC0E]">
+              <a href="/contact" className="hover:text-[#9CDA0C]">
                 Help center
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:text-[#A8EC0E]">
+              <a href="/about" className="hover:text-[#9CDA0C]">
                 Terms of service
               </a>
             </li>
             <li>
-              <a href="/" className="hover:text-[#A8EC0E]">
+              <a href="/" className="hover:text-[#9CDA0C]">
                 Legal
               </a>
             </li>
             <li>
-              <a href="/" className="hover:text-[#A8EC0E]">
+              <a href="/" className="hover:text-[#9CDA0C]">
                 Privacy policy
               </a>
             </li>
@@ -137,7 +137,7 @@ const Footer = () => {
 
         {/* Stay Up to Date */}
         <div>
-          <h4 className="font-bold text-[#A8EC0E] mb-4">Stay up to date</h4>
+          <h4 className="font-bold text-[#9CDA0C] mb-4">Stay up to date</h4>
           <form className="flex space-x-2" onSubmit={handleSubmit}>
             <input
               type="email"
@@ -145,11 +145,11 @@ const Footer = () => {
               name="from_email"
               onChange={handleEmailChange}
               placeholder="Your email address"
-              className="flex-1 p-2 rounded-md border-2 border-[#A8EC0E] focus:outline-none focus:ring-2 focus:ring-[#A8EC0E]"
+              className="flex-1 p-2 rounded-md border-2 border-[#9CDA0C] focus:outline-none focus:ring-2 focus:ring-[#9CDA0C]"
             />
             <button
               type="submit"
-              className="p-2 w-10 h-10 bg-[#A8EC0E] text-white rounded-full flex items-center justify-center hover:bg-[#8EC50D] transition"
+              className="p-2 w-10 h-10 bg-[#9CDA0C] text-white rounded-full flex items-center justify-center hover:bg-[#8EC50D] transition"
             >
               <IoIosSend />
             </button>

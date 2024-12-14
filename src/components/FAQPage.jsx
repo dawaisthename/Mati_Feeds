@@ -14,15 +14,15 @@ function FAQPage() {
       {/* FAQ Section */}
       <section className="bg-[#ffffff] py-16 px-6 sm:px-8 lg:px-16">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-8 text-[#A8EC0E]">
+          <h2 className="text-3xl font-bold text-center mb-8 text-[#9CDA0C]">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             {/* Question 1 */}
-            <div className="border border-[#A8EC0E] rounded-lg p-4">
+            <div className="border border-[#9CDA0C] rounded-lg p-4">
               <button
                 type="button"
-                className="w-full text-left flex justify-between items-center text-lg font-semibold text-[#A8EC0E] focus:outline-none"
+                className="w-full text-left flex justify-between items-center text-lg font-semibold text-[#9CDA0C] focus:outline-none"
                 onClick={() => toggleAnswer(1)}
               >
                 <span>What is Mati Feeds?</span>
@@ -52,10 +52,10 @@ function FAQPage() {
             </div>
 
             {/* Question 2 */}
-            <div className="border border-[#A8EC0E] rounded-lg p-4">
+            <div className="border border-[#9CDA0C] rounded-lg p-4">
               <button
                 type="button"
-                className="w-full text-left flex justify-between items-center text-lg font-semibold text-[#A8EC0E] focus:outline-none"
+                className="w-full text-left flex justify-between items-center text-lg font-semibold text-[#9CDA0C] focus:outline-none"
                 onClick={() => toggleAnswer(2)}
               >
                 <span>How can I place an order?</span>
@@ -85,10 +85,10 @@ function FAQPage() {
             </div>
 
             {/* Question 3 */}
-            <div className="border border-[#A8EC0E] rounded-lg p-4">
+            <div className="border border-[#9CDA0C] rounded-lg p-4">
               <button
                 type="button"
-                className="w-full text-left flex justify-between items-center text-lg font-semibold text-[#A8EC0E] focus:outline-none"
+                className="w-full text-left flex justify-between items-center text-lg font-semibold text-[#9CDA0C] focus:outline-none"
                 onClick={() => toggleAnswer(3)}
               >
                 <span>Do you offer custom feed formulations?</span>

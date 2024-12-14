@@ -73,7 +73,7 @@ function ContactPage() {
     <>
       <Navbar />
       <section className="py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
-        <h2 className="text-3xl font-bold text-center text-[#A8EC0E] mb-8">
+        <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
           Get in Touch
         </h2>
 
@@ -91,7 +91,7 @@ function ContactPage() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A8EC0E]"
+                  className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#9CDA0C]"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -106,7 +106,7 @@ function ContactPage() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A8EC0E]"
+                  className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#9CDA0C]"
                   placeholder="Enter your email"
                 />
               </div>
@@ -121,14 +121,14 @@ function ContactPage() {
                   rows="4"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#A8EC0E]"
+                  className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#9CDA0C]"
                   placeholder="Enter your message"
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#A8EC0E] text-white font-bold py-3 rounded-md hover:bg-[#A8EC0E]80 transition"
+                className="w-full bg-[#9CDA0C] text-white font-bold py-3 rounded-md hover:bg-[#9CDA0C]80 transition"
               >
                 Send Message
               </button>

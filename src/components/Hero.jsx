@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import milking from "../assets/images/milking.png";
+import milk from "../assets/images/milk.png";
+// import companyLogo from "../assets/images/logo.png";
 import co1 from "../assets/images/co1.jpg";
 import co2 from "../assets/images/co2.jpg";
 import co3 from "../assets/images/co3.jpg";
@@ -46,8 +47,8 @@ function Hero() {
 
           <div class="lg:col-span-5 flex justify-center mt-8 lg:mt-0">
             <img
-              src={milking}
-              class="w-full max-w-xs h-auto object-cover"
+              src={milk}
+              class="w-full h-32 max-w-xs h-auto object-cover"
               alt="Company Logo"
             />
           </div>

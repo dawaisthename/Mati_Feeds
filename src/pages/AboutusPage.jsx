@@ -116,18 +116,18 @@ function AboutusPage() {
         </section>
 
         {/* Mission and Vision: Circular Design */}
-        <section className="py-16 px-6 bg-[#9CDA0C] text-white">
+        <section className="py-16 px-6  text-black">
           <h2 className="text-3xl font-bold text-center mb-12">
             Our Mission & Vision
           </h2>
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2">
             {/* Mission Circle */}
-            <div className="text-center">
-              <div className="w-40 h-40 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="text-center mb-4">
+              {/* class="bg-white p-6 transition transform hover:scale-105 hover:shadow-[6px_6px_12px_rgba(168,236,14,0.8)]" */}
+              <div className="bg-white w-40 h-40 p-6  rounded-full shadow-[4px_4px_10px_rgba(168,236,14,1)] dark:bg-gray-800 flex items-center justify-center mx-auto mb-5">
                 <p className="text-3xl text-black font-semibold">Mission</p>
               </div>
-
-              <p className="text-xl font-medium text-center text-white">
+              <p className="text-xl font-medium text-center text-black">
                 Delivering top-tier animal nutrition <br /> while supporting
                 sustainable farming practices.
               </p>
@@ -135,11 +135,11 @@ function AboutusPage() {
 
             {/* Vision Circle */}
             <div className="text-center">
-              <div className="w-40 h-40 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-white w-40 h-40 p-6  rounded-full shadow-[4px_4px_10px_rgba(168,236,14,1)] dark:bg-gray-800 flex items-center justify-center mx-auto mb-4">
                 <p className="text-3xl text-black font-semibold">Vision</p>
               </div>
 
-              <p className="text-xl font-medium text-center text-white">
+              <p className="text-xl font-medium text-center text-black">
                 To be Ethiopia's leading animal feed manufacturer <br /> with a
                 strong international presence.
               </p>
@@ -171,7 +171,7 @@ function AboutusPage() {
             {/* CFO */}
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
-                src={profile3}
+                src={profile2}
                 alt="CFO"
                 className="rounded-full mx-auto mb-4"
               />

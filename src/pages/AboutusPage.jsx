@@ -152,7 +152,7 @@ function AboutusPage() {
           <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
             Meet Our Leadership Team
           </h2>
-          <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
             {/* CEO */}
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
@@ -160,10 +160,10 @@ function AboutusPage() {
                 alt="CEO"
                 className="rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">John Doe</h3>
+              <h3 className="text-xl font-bold mb-2"> Muslim Nasir</h3>
               <p className="text-gray-600">Chief Executive Officer (CEO)</p>
               <p className="mt-4 text-gray-700">
-                John oversees the entire operations of Mati Feeds and ensures
+                Muslim oversees the entire operations of Mati Feeds and ensures
                 the alignment of company strategies with its vision and mission.
               </p>
             </div>
@@ -171,20 +171,22 @@ function AboutusPage() {
             {/* CFO */}
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
-                src={profile2}
+                src={profile3}
                 alt="CFO"
                 className="rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Jane Smith</h3>
-              <p className="text-gray-600">Chief Financial Officer (CFO)</p>
+              <h3 className="text-xl font-bold mb-2">Abenezer Engda</h3>
+              <p className="text-gray-600">Chief operating officer (COO)</p>
               <p className="mt-4 text-gray-700">
-                Jane manages the financial health of Mati Feeds, ensuring
-                profitability and efficient allocation of resources.
+                Abenezer Engda versees the daily operations of Mati Feeds,
+                ensuring efficient processes, optimal resource allocation, and
+                seamless execution of company strategies to achieve its vision
+                and mission
               </p>
             </div>
 
             {/* CPO */}
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <img
                 src={profile3}
                 alt="CPO"
@@ -196,7 +198,7 @@ function AboutusPage() {
                 Alice leads product development and quality assurance, ensuring
                 that Mati Feeds offers the best nutritional solutions.
               </p>
-            </div>
+            </div> */}
           </div>
         </section>
 

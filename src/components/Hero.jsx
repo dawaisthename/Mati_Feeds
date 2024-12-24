@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import milk from "../assets/images/milk.png";
 // import companyLogo from "../assets/images/logo.png";
-import co1 from "../assets/images/co1.jpg";
-import co2 from "../assets/images/co2.jpg";
-import co3 from "../assets/images/co3.jpg";
-import co4 from "../assets/images/co4.jpg";
+import Sheger from "../assets/images/Sheger.png";
+import devbank from "../assets/images/devbank.png";
+import bejia from "../assets/images/bejia.png";
+import ata from "../assets/images/ata.png";
 
 function Hero() {
   return (
@@ -14,7 +14,7 @@ function Hero() {
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-5xl dark:text-white">
-              Feed Well Agro Fauna Trading PLC
+              Mati Animal Feeds
             </h1>
             <h3 class="max-w-2xl mb-6 font-bold text-[#9CDA0C] lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">
               Innovative Animal Nutrition Solutions
@@ -62,34 +62,34 @@ function Hero() {
             Our Clients
           </h2>
           <p class="text-2xl font-light text-center text-dark dark:text-white mb-12">
-            We have been working with some Fortune 500+ clients
+            We have been working with some Fortune 50+ clients
           </p>
 
           <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4">
             <div class="flex justify-center">
               <img
-                src={co1}
+                src={Sheger}
                 alt="Client 1"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />
             </div>
             <div class="flex justify-center">
               <img
-                src={co2}
+                src={devbank}
                 alt="Client 2"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />
             </div>
             <div class="flex justify-center">
               <img
-                src={co3}
+                src={bejia}
                 alt="Client 3"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />
             </div>
             <div class="flex justify-center">
               <img
-                src={co4}
+                src={ata}
                 alt="Client 4"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />

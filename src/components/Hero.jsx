@@ -68,7 +68,7 @@ function Hero() {
           <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4">
             <div class="flex justify-center">
               <img
-                src={Sheger}
+                src={bejia}
                 alt="Client 1"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />
@@ -82,7 +82,7 @@ function Hero() {
             </div>
             <div class="flex justify-center">
               <img
-                src={bejia}
+                src={Sheger}
                 alt="Client 3"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />

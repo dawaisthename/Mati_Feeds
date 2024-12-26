@@ -37,7 +37,7 @@ function AboutUs() {
             </h2>
 
             <p class="text-lg text-gray-500 dark:text-gray-400 mb-6">
-              Mati Feeds, founded in 2020, is transforming livestock farming
+              Mati Feeds, founded in 2024, is transforming livestock farming
               with innovative, high-quality animal feed solutions. Based in
               Sheger City, Oromia Region, we enhance animal health and
               productivity while supporting sustainable agriculture

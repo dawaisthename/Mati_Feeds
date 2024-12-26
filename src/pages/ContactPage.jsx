@@ -147,16 +147,19 @@ function ContactPage() {
               <h3 className="text-xl font-semibold">Contact Details</h3>
               <div className="space-y-4 text-lg">
                 <p className="text-gray-800">
-                  📍 <strong>Address:</strong> 1234 Street Name, City, Country
+                  📍 <strong>Address:</strong>Sheger city, Gelan Guda Subcity
                 </p>
                 <p className="text-gray-800">
-                  📞 <strong>Phone:</strong> +251-932-13-13-00
+                  📞 <strong>Phone:</strong> +251-908-08-08-97
                 </p>
                 <p className="text-gray-800">
                   📞 <strong>Phone:</strong> +251-910-04-00-44
                 </p>
                 <p className="text-gray-800">
-                  📧 <strong>Email:</strong> contact@yourdomain.com
+                  📞 <strong>Phone:</strong> +251-932-13-13-00
+                </p>
+                <p className="text-gray-800">
+                  📧 <strong>Email:</strong> contact@matianimalsfeed.com
                 </p>
               </div>
             </div>
@@ -166,11 +169,15 @@ function ContactPage() {
               <h3 className="text-xl font-semibold">Our Location</h3>
               <div className="w-full h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4688.177695550633!2d38.7606221580901!3d8.971510472863132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f1e308b%3A0xb74dad85f25c42c9!2sSheger%20City%20Administration!5e0!3m2!1sen!2set!4v1734038538027!5m2!1sen!2set"
-                  className="w-full h-full rounded-lg"
-                  allowFullScreen=""
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63075.99021814744!2d38.73943967518573!3d8.85635890656234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b773d2c9831ad%3A0x1eae1cb429353cf9!2sSheger%20City%20Gelan%20Sub-city!5e0!3m2!1sen!2set!4v1735188905719!5m2!1sen!2set"
+                  width="600"
+                  height="450"
+                  style={{ border: 0 }}
+                  allowFullScreen
                   loading="lazy"
-                ></iframe>
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+
                 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4688.177695550633!2d38.7606221580901!3d8.971510472863132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f1e308b%3A0xb74dad85f25c42c9!2sSheger%20City%20Administration!5e0!3m2!1sen!2set!4v1734038538027!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
               </div>
             </div>

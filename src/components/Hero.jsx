@@ -17,7 +17,7 @@ function Hero() {
               Mati Animal Feeds
             </h1>
             <h3 class="max-w-2xl mb-6 font-bold text-[#9CDA0C] lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">
-              Innovative Animal Nutrition Solutions
+              Guardian of animals
             </h3>
             <p class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               Empowering sustainable agriculture with quality feed products
@@ -58,17 +58,22 @@ function Hero() {
       {/* Our Clients section starts */}
       <section class="bg-white dark:bg-gray-900 py-16">
         <div class="max-w-screen-xl mx-auto px-4">
-          <h2 class="text-4xl font-extrabold text-center text-[#9CDA0C] dark:text-white mb-12">
+          <h2 class="text-4xl font-extrabold text-center text-[#9CDA0C] dark:text-white mb-4">
             Our Clients
           </h2>
-          <p class="text-2xl font-light text-center text-dark dark:text-white mb-12">
-            We have been working with some Fortune 50+ clients
-          </p>
+          <div class="text-center mb-12">
+            <p class="text-3xl font-semibold text-dark dark:text-white mb-4">
+              we have worked with over 50 clients
+            </p>
+            <p class="text-xl font-light text-gray-700 dark:text-gray-300">
+              Meet Some of Our Valued Clients
+            </p>
+          </div>
 
           <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4">
             <div class="flex justify-center">
               <img
-                src={bejia}
+                src={Sheger}
                 alt="Client 1"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />
@@ -82,7 +87,7 @@ function Hero() {
             </div>
             <div class="flex justify-center">
               <img
-                src={Sheger}
+                src={bejia}
                 alt="Client 3"
                 class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
               />

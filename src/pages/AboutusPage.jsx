@@ -46,7 +46,7 @@ function AboutusPage() {
                       Started the Journey
                     </h3>
                     <p>
-                      In 2020, we took our first step into the agro-processing
+                      In 2024, we took our first step into the agro-processing
                       industry, leveraging years of experience.
                     </p>
                   </div>

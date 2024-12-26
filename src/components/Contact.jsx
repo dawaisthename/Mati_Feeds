@@ -64,9 +64,9 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-[#A8EC0E] via-[#A8EC0E70] to-[#ffffff30] py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
+    <section className="bg-gradient-to-r from-[#9CDA0C] via-[#9CDA0C70] to-[#ffffff30] py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
       <h2 className="text-4xl font-bold text-center mb-8">
-        Contact <span className="text-[#A8EC0E]">Us</span>
+        Contact <span className="text-[#9CDA0C]">Us</span>
       </h2>
 
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -126,7 +126,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-white text-[#A8EC0E] font-bold py-3 rounded-md hover:bg-[#ffffffcc] transition"
+              className="w-full bg-white text-[#9CDA0C] font-bold py-3 rounded-md hover:bg-[#ffffffcc] transition"
             >
               Send
             </button>
@@ -142,7 +142,7 @@ const Contact = () => {
         <div className="space-y-6">
           <div>
             <h3 className="text-lg text-white font-bold">Contact</h3>
-            <p>hi@green.com</p>
+            <p>contact@matianimalsfeed.com</p>
           </div>
           <div>
             <h3 className="text-lg text-white font-bold">Based in</h3>

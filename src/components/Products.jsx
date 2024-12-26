@@ -28,7 +28,7 @@ function Products() {
                 Poultry Feeds
               </h3>
               <p class="text-gray-500 text-center dark:text-gray-400">
-                Tailored formulations for both layer and pullet types.
+                Custom mixes for both egg-laying hens and young chickens.
               </p>
             </div>
           </div>

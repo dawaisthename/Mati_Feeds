@@ -21,9 +21,9 @@ const Footer = () => {
       return;
     }
 
-    const serviceId = "service_f14h1ur";
-    const templateId = "template_7hxga5g";
-    const publicKey = "w--rOkwl-Kux4ORCX";
+    const serviceId = "service_kx9s4uo";
+    const templateId = "template_aupeoru";
+    const publicKey = "WMQmPd6JPoTHz4QLo";
 
     try {
       // Send email with EmailJS, including name and email values
@@ -32,7 +32,7 @@ const Footer = () => {
         templateId,
         {
           from_email, // Sender's email
-          to_name: "Mati Feeds Team", // Recipient's name
+          company_name: "Mati Feeds Team", // Recipient's name
           message: `User with email ${from_email} is interested in your service.`, // Customize message as needed
         },
         publicKey

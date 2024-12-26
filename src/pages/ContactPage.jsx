@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-
 import emailjs from "@emailjs/browser";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -23,7 +22,7 @@ function ContactPage() {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
-      [name]: value,
+      [name]: value, // Update state correctly
     }));
   };
 
@@ -37,9 +36,9 @@ function ContactPage() {
       return;
     }
 
-    const serviceId = "service_f14h1ur"; // Replace with your actual service ID
-    const templateId = "template_43888qi"; // Replace with your actual template ID
-    const publicKey = "w--rOkwl-Kux4ORCX"; // Replace with your actual public key
+    const serviceId = "service_kx9s4uo";
+    const templateId = "template_awyhhwa";
+    const publicKey = "WMQmPd6JPoTHz4QLo";
 
     setStatus("Sending...");
 
@@ -82,15 +81,18 @@ function ContactPage() {
           <div>
             <form ref={form} onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-lg font-medium">
+                <label
+                  htmlFor="from_name"
+                  className="block text-lg font-medium"
+                >
                   Full Name
                 </label>
                 <input
                   type="text"
-                  id="name"
-                  name="name"
+                  id="from_name"
+                  name="name" // Make sure 'name' matches the state variable
                   value={formData.name}
-                  onChange={handleChange}
+                  onChange={handleChange} // Handle input change properly
                   className="w-full p-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#9CDA0C]"
                   placeholder="Enter your full name"
                 />
@@ -159,7 +161,7 @@ function ContactPage() {
                   📞 <strong>Phone:</strong> +251-932-13-13-00
                 </p>
                 <p className="text-gray-800">
-                  📧 <strong>Email:</strong> contact@matianimalsfeed.com
+                  📧 <strong>Email:</strong> contact@matianimalsfeed.org
                 </p>
               </div>
             </div>
@@ -177,8 +179,6 @@ function ContactPage() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
-
-                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4688.177695550633!2d38.7606221580901!3d8.971510472863132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f1e308b%3A0xb74dad85f25c42c9!2sSheger%20City%20Administration!5e0!3m2!1sen!2set!4v1734038538027!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
               </div>
             </div>
           </div>

@@ -41,7 +41,7 @@ function Products() {
                 class="w-full h-48 object-cover rounded-t-lg mb-4"
               />
               <h3 class="text-xl font-semibold text-center text-gray-900 dark:text-white mb-2">
-                DairyFeeds
+                Dairy Feeds
               </h3>
               <p class="text-gray-500 text-center dark:text-gray-400">
                 Nutritional solutions designed for optimal milk production.

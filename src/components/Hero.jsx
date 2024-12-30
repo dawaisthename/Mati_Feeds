@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import milk from "../assets/images/milk.png";
+import home from "../assets/images/home.png";
 // import companyLogo from "../assets/images/logo.png";
 import Sheger from "../assets/images/Sheger.png";
 import devbank from "../assets/images/devbank.png";
@@ -44,10 +44,9 @@ function Hero() {
               </a>
             </Link>
           </div>
-
           <div class="lg:col-span-5 flex justify-center mt-8 lg:mt-0">
             <img
-              src={milk}
+              src={home}
               class="w-full h-32 max-w-xs h-auto object-cover"
               alt="Company Logo"
             />

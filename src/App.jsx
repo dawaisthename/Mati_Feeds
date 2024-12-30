@@ -4,6 +4,7 @@ import LandingPage from "./pages/LandingPage";
 import ContactPage from "./pages/ContactPage";
 import AboutusPage from "./pages/AboutusPage";
 import BlogPage from "./pages/BlogPage";
+import ProductPage from "./pages/ProductPage";
 import LoadingPage from "./pages/LoadingPage";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/home" element={<LandingPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutusPage />} />
+          <Route path="/product" element={<ProductPage />} />
           <Route path="/blog" element={<BlogPage />} />
         </Routes>
       )}

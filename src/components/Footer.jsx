@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { IoIosSend } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   const [from_email, setEmail] = useState(""); // State to manage the email input
@@ -51,7 +51,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#F5F5F5] text-[#333] py-12">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo and Copyright Section */}
         <div>
           <h3 className="text-xl font-bold text-[#9CDA0C] mb-4">Mati Feeds</h3>
@@ -61,22 +61,27 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="#"
-              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition"
+              href="https://www.facebook.com/share/1QAPhaNfgy/?mibextid=qi2Omg"
+              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition-all duration-500 ease-in-out"
+              target="_blank" // Open link in a new tab
+              rel="noopener noreferrer" // Security feature to prevent security vulnerabilities
             >
               <FaFacebook />
             </a>
+
             <a
-              href="#"
-              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition"
+              href="https://www.tiktok.com/@mati_feeds?_t=8scTtRqhnlN&_r=1"
+              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition-all duration-500 ease-in-out"
+              target="_blank" // Open link in a new tab
+              rel="noopener noreferrer" // Security feature to prevent security vulnerabilities
             >
-              <FaTwitter />
+              <FaTiktok />
             </a>
             <a
               href="#"
-              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition"
+              className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition-all duration-500 ease-in-out"
             >
-              <FaInstagramSquare />
+              <FaLinkedin />
             </a>
           </div>
         </div>
@@ -101,6 +106,11 @@ const Footer = () => {
               </a>
             </li>
             <li>
+              <a href="/product" className="hover:text-[#9CDA0C]">
+                Product
+              </a>
+            </li>
+            <li>
               <a href="/blog" className="hover:text-[#9CDA0C]">
                 Blog
               </a>
@@ -109,7 +119,7 @@ const Footer = () => {
         </div>
 
         {/* Support Links */}
-        <div>
+        {/* <div>
           <h4 className="font-bold text-[#9CDA0C] mb-4">Support</h4>
           <ul className="space-y-2 text-sm">
             <li>
@@ -133,7 +143,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Stay Up to Date */}
         <div>

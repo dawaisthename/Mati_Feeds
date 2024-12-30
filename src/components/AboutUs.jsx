@@ -1,5 +1,5 @@
 import React from "react";
-import workers from "../assets/images/workers.jpg";
+import workers from "../assets/images/workers.jpeg";
 import { Link } from "react-router-dom";
 import workers3 from "../assets/images/workers3.png";
 
@@ -37,10 +37,10 @@ function AboutUs() {
             </h2>
 
             <p class="text-lg text-gray-500 dark:text-gray-400 mb-6">
-              Mati Feeds, founded in 2024, is transforming livestock farming
-              with innovative, high-quality animal feed solutions. Based in
-              Sheger City, Oromia Region, we enhance animal health and
-              productivity while supporting sustainable agriculture
+              Mati Feeds was founded in 2024 and is transforming livestock
+              farming with innovative, high-quality animal feed solutions. Based
+              in Sheger City, Oromia Region, we enhance animal health and
+              productivity while supporting sustainable agriculture.
             </p>
           </div>
           <div class="grid grid-cols-2 gap-4 mt-8">

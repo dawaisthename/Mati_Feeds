@@ -1,19 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-// import blog from "../assets/images/blog.jpg";
+// import blog from "../assets/images/blog.jpg"; // Image is not used in the code.
 import diary from "../assets/images/diary.jpg";
 import fetting from "../assets/images/fetting.jpg";
 import poultry from "../assets/images/poultry.jpg";
 import Footer from "../components/Footer";
+
 function ProductPage() {
+  // Optional: Define the scrollToSection function if you want to use scrolling.
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <Navbar />
       <section className="relative py-32 bg-gradient-to-r from-[#9CDA0C] to-[#72B02C] text-white text-center">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-40"
-          style={{ backgroundImage: `url('path_to_hero_image.jpg')` }}
+          style={{ backgroundImage: `url('path_to_hero_image.jpg')` }} // Replace with actual hero image path
         ></div>
         <div className="relative z-10 max-w-screen-xl mx-auto px-6">
           <h1 className="text-5xl font-extrabold leading-tight mb-4 drop-shadow-xl">
@@ -46,17 +55,19 @@ function ProductPage() {
           {/* Product Cards Layout */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {/* Poultry Feeds */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
-              <Link to="#poultry">
-                <img
-                  src={poultry}
-                  alt="Poultry Feeds"
-                  className="w-full h-72 object-cover rounded-md mb-6"
-                />
-                <h3 className="text-2xl font-semibold text-[#9CDA0C] mb-3">
-                  Poultry Feeds
-                </h3>
-              </Link>
+            <div
+              className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl"
+              onClick={() => scrollToSection("poultry")}
+            >
+              <img
+                src={poultry}
+                alt="Poultry Feeds"
+                className="w-full h-72 object-cover rounded-md mb-6"
+              />
+              <h3 className="text-2xl font-semibold text-[#9CDA0C] mb-3">
+                Poultry Feeds
+              </h3>
+
               <p className="text-lg font-light text-gray-700 dark:text-gray-300 mb-4">
                 Specially formulated to support the growth of young chickens and
                 enhance egg production in laying hens.
@@ -64,17 +75,19 @@ function ProductPage() {
             </div>
 
             {/* Dairy Feeds */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
-              <Link to="#dairy">
-                <img
-                  src={diary}
-                  alt="Dairy Feeds"
-                  className="w-full h-72 object-cover rounded-md mb-6"
-                />
-                <h3 className="text-2xl font-semibold text-[#9CDA0C] mb-3">
-                  Dairy Feeds
-                </h3>
-              </Link>
+            <div
+              className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl"
+              onClick={() => scrollToSection("dairy")}
+            >
+              <img
+                src={diary}
+                alt="Dairy Feeds"
+                className="w-full h-72 object-cover rounded-md mb-6"
+              />
+              <h3 className="text-2xl font-semibold text-[#9CDA0C] mb-3">
+                Dairy Feeds
+              </h3>
+
               <p className="text-lg font-light text-gray-700 dark:text-gray-300 mb-4">
                 Optimized for lactating cows, our dairy feed maximizes milk
                 production and cow health.
@@ -82,17 +95,19 @@ function ProductPage() {
             </div>
 
             {/* Fattening Feeds */}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
-              <Link to="#fattening">
-                <img
-                  src={fetting}
-                  alt="Fattening Feeds"
-                  className="w-full h-72 object-cover rounded-md mb-6"
-                />
-                <h3 className="text-2xl font-semibold text-[#9CDA0C] mb-3">
-                  Fattening Feeds
-                </h3>
-              </Link>
+            <div
+              className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl cursor-pointer"
+              onClick={() => scrollToSection("fattening")}
+            >
+              <img
+                src={fetting}
+                alt="Fattening Feeds"
+                className="w-full h-72 object-cover rounded-md mb-6"
+              />
+              <h3 className="text-2xl font-semibold text-[#9CDA0C] mb-3">
+                Fattening Feeds
+              </h3>
+
               <p className="text-lg font-light text-gray-700 dark:text-gray-300 mb-4">
                 Formulated to promote healthy weight gain while ensuring a
                 balanced diet for cattle and pigs.
@@ -181,26 +196,26 @@ function ProductPage() {
                 Key Benefits:
               </h4>
               <ul className="list-disc pl-5 text-gray-700 dark:text-gray-400 mb-6">
-                <li>Increases milk production</li>
-                <li>Supports cow health and digestion</li>
-                <li>Promotes reproductive health</li>
-                <li>Rich in calcium and phosphorus</li>
+                <li>Boosts milk yield</li>
+                <li>Improves cow health</li>
+                <li>Enhances nutrient absorption</li>
+                <li>Rich in fiber and proteins</li>
               </ul>
               <h4 className="text-xl font-semibold text-[#9CDA0C] mb-3">
                 Ingredients:
               </h4>
               <ul className="list-disc pl-5 text-gray-700 dark:text-gray-400 mb-6">
-                <li>Alfalfa Meal</li>
-                <li>Corn Silage</li>
+                <li>Alfalfa</li>
+                <li>Oats</li>
                 <li>Soybean Meal</li>
-                <li>Minerals and Vitamins</li>
+                <li>Vitamins and Minerals</li>
               </ul>
               <h4 className="text-xl font-semibold text-[#9CDA0C] mb-3">
                 Usage Instructions:
               </h4>
               <p className="text-gray-700 dark:text-gray-400">
-                Feed alongside fresh water, adjusting portions based on milk
-                production and cow size.
+                Mix with clean water or add to feed. Adjust portions as per your
+                cow's production stage.
               </p>
             </div>
           </div>
@@ -222,38 +237,39 @@ function ProductPage() {
                 Fattening Feeds
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-                Specially designed to promote healthy weight gain for cattle and
-                pigs, improving overall livestock condition.
+                Designed to promote healthy weight gain in livestock, while
+                maintaining a balanced diet.
               </p>
               <h4 className="text-xl font-semibold text-[#9CDA0C] mb-3">
                 Key Benefits:
               </h4>
               <ul className="list-disc pl-5 text-gray-700 dark:text-gray-400 mb-6">
                 <li>Promotes healthy weight gain</li>
-                <li>Enhances muscle development</li>
-                <li>Improves feed conversion ratio</li>
-                <li>Optimizes digestion and metabolism</li>
+                <li>Enhances muscle growth</li>
+                <li>Improves feed efficiency</li>
+                <li>Increases fat deposition</li>
               </ul>
               <h4 className="text-xl font-semibold text-[#9CDA0C] mb-3">
                 Ingredients:
               </h4>
               <ul className="list-disc pl-5 text-gray-700 dark:text-gray-400 mb-6">
-                <li>Barley</li>
-                <li>Oats</li>
+                <li>Maize</li>
+                <li>Molasses</li>
                 <li>Rice Bran</li>
-                <li>Proteins and Vitamins</li>
+                <li>Vitamins and Minerals</li>
               </ul>
               <h4 className="text-xl font-semibold text-[#9CDA0C] mb-3">
                 Usage Instructions:
               </h4>
               <p className="text-gray-700 dark:text-gray-400">
-                Feed alongside clean water, ensuring the animals receive the
-                right amount based on their weight and size.
+                Add to feed as per the weight and age of the animal. Ensure
+                access to clean water.
               </p>
             </div>
           </div>
         </div>
       </section>
+
       <Footer />
     </>
   );

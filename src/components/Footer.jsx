@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { IoIosSend } from "react-icons/io";
+import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -89,31 +90,32 @@ const Footer = () => {
         {/* Company Links */}
         <div>
           <h4 className="font-bold text-[#9CDA0C] mb-4">Company</h4>
+
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="/" className="hover:text-[#9CDA0C]">
+              <Link to="/" className="hover:text-[#9CDA0C]">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-[#9CDA0C]">
+              <Link to="/about" className="hover:text-[#9CDA0C]">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-[#9CDA0C]">
+              <Link to="/contact" className="hover:text-[#9CDA0C]">
                 Contact Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/product" className="hover:text-[#9CDA0C]">
+              <Link to="/product" className="hover:text-[#9CDA0C]">
                 Product
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/blog" className="hover:text-[#9CDA0C]">
+              <Link to="/blog" className="hover:text-[#9CDA0C]">
                 Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

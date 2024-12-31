@@ -79,7 +79,7 @@ const Footer = () => {
               <FaTiktok />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/mati-animals-feed/"
               className="p-2 bg-[#9CDA0C] text-white rounded-full hover:bg-white hover:text-[#9CDA0C] transition-all duration-500 ease-in-out"
             >
               <FaLinkedin />

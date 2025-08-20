@@ -5,7 +5,7 @@ import cert from "../assets/images/cert.png";
 
 const QualityAssurance = () => {
   return (
-    <section className="bg-gradient-to-r from-[#9CDA0C] to-white py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
+    <section className="bg-[#000033] py-20 px-6 sm:px-8 lg:px-16 text-gray-900">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl sm:text-5xl font-bold mb-6 leading-tight">
           Our Commitment to <span className="text-[#9CDA0C]">Quality</span>

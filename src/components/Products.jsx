@@ -6,7 +6,7 @@ import poultry from "../assets/images/poultry.jpg";
 
 function Products() {
   return (
-    <section className="py-16 bg-white dark:bg-gray-900">
+    <section className="py-16 bg-[#000033] dark:bg-gray-900">
       <div className="max-w-screen-xl mx-auto px-4">
         <h2 className="text-4xl font-extrabold text-center text-[#9CDA0C] dark:text-white mb-12">
           Our Products

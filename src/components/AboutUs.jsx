@@ -5,7 +5,7 @@ import workers3 from "../assets/images/workers3.png";
 
 function AboutUs() {
   return (
-    <section class="py-16 bg-white dark:bg-gray-900">
+    <section class="py-16 bg-[#000030] dark:bg-gray-900">
       {/* <div class="max-w-screen-xl mx-auto px-4 mb-16">
         <div class="flex flex-col md:flex-row items-center gap-12">
           <div class="md:w-1/2 text-center md:text-left">

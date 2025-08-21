@@ -1,220 +1,204 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import heroImage from "../assets/images/Artboard 10.jpg";
+import missionImage from "../assets/images/Artboard 3.jpg";
+import bearing from "../assets/images/bearing.png";
 
-import workers from "../assets/images/workers.jpg";
-import profile1 from "../assets/images/profile1.jpg";
-import profile2 from "../assets/images/profile2.jpg";
-import profile3 from "../assets/images/profile3.jpg";
 function AboutusPage() {
   return (
     <>
       <Navbar />
-      <div className="text-gray-800 min-h-screen">
-        {/* Hero Section with Background Image */}
+      <div className="bg-[#000033] dark:bg-[#000030] text-white font-sans">
+        {/* Hero Section */}
         <section
-          className="relative w-full h-screen bg-cover bg-center"
-          style={{ backgroundImage: `url(${workers})` }} // Use the imported workers image as background
+          className="relative -mt-20 min-h-screen flex items-center bg-center bg-no-repeat bg-cover"
+          style={{
+            backgroundImage: `url(${heroImage})`,
+          }}
         >
-          <div className="absolute inset-0 bg-black opacity-40"></div>
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-6 md:px-12">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              Welcome to Mati Feeds
+          {/* Dark overlay for readability */}
+          <div className="absolute inset-0 bg-[#000030] bg-opacity-70"></div>
+
+          {/* Hero content - centered vertically and horizontally */}
+          <div className="relative z-10 max-w-screen-xl px-4 py-8 mx-auto flex items-center justify-center text-center">
+            <div className="max-w-3xl">
+              {/* Hero Subtitle */}
+
+              {/* Hero Heading */}
+              {/* <h1 className="text-4xl sm:text-6xl font-extrabold text-white mb-4 drop-shadow-md">
+                Our Story
+              </h1> */}
+              {/* Hero Paragraph
+              <p className="text-xl sm:text-2xl text-gray-200">
+                With a history lasting back to 1907, SKF Nubeyil has grown into
+                a large multinational corporation with a global presence and a
+                wide range of applications across various industries.
+              </p> */}
+              <h1 className="text-4xl sm:text-6xl font-extrabold text-white mb-4 drop-shadow-md">
+                Welcome hand to hand with skf Nubeyil Company to create
+                beautiful tomorrow
+              </h1>
+              {/* <h3 className="mb-6 font-bold text-white text-lg sm:text-xl lg:text-2xl">
+                Welcome hand to hand with skf Nubeyil Company to create
+                beautiful tomorrow
+              </h3> */}
+            </div>
+          </div>
+        </section>
+
+        {/* Mission & Values Section - Two-Column Layout */}
+        <section className="py-16 px-6 sm:px-8 lg:px-16">
+          <div className="max-w-screen-xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 items-center m-10">
+            <h1 className="text-4xl sm:text-6xl font-extrabold text-white mb-4 drop-shadow-md">
+              Our Story
             </h1>
-            <p className="text-xl md:text-2xl mb-6">
-              Driving innovation in animal nutrition for a sustainable future.
+            {/* Hero Paragraph */}
+            <p className="text-xl sm:text-2xl text-gray-200">
+              With a history lasting back to 1907, SKF Nubeyil has grown into a
+              large multinational corporation with a global presence and a wide
+              range of applications across various industries.
             </p>
-            <button className="px-8 py-4 bg-[#9CDA0C] text-white font-bold rounded-lg shadow-md hover:bg-[#94cc0e] transition ease-in-out duration-300">
-              Learn More
-            </button>
           </div>
-        </section>
 
-        {/* Our Story Section: Timeline Style */}
-        <section className="py-16 px-6">
-          <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
-            Our Journey
-          </h2>
-          <div className="max-w-7xl mx-auto">
-            <div className="relative">
-              <div className="absolute left-0 top-0 h-full w-1 bg-[#9CDA0C]" />
-              <div className="flex flex-col md:flex-row items-start md:space-x-8">
-                {/* Timeline Item 1 */}
-                <div className="flex flex-col items-start mb-8 md:mb-0 md:w-1/3 relative z-10">
-                  <div className="bg-white p-6 rounded-lg shadow-lg mb-4">
-                    <h3 className="font-bold text-xl mb-2">
-                      Started the Journey
-                    </h3>
-                    <p>
-                      In 2024, we took our first step into the agro-processing
-                      industry, leveraging years of experience.
-                    </p>
-                  </div>
-                  <div className="absolute -left-4 top-2 bg-[#9CDA0C] w-8 h-8 rounded-full shadow-lg"></div>
-                </div>
-
-                {/* Timeline Item 2 */}
-                <div className="flex flex-col items-start mb-8 md:mb-0 md:w-1/3 relative z-10">
-                  <div className="bg-white p-6 rounded-lg shadow-lg mb-4">
-                    <h3 className="font-bold text-xl mb-2">
-                      Production Facility Setup
-                    </h3>
-                    <p>
-                      We built a state-of-the-art facility to manufacture
-                      premium animal feed products for the local market.
-                    </p>
-                  </div>
-                  <div className="absolute -left-4 top-2 bg-[#9CDA0C] w-8 h-8 rounded-full shadow-lg"></div>
-                </div>
-
-                {/* Timeline Item 3 */}
-                <div className="flex flex-col items-start mb-8 md:mb-0 md:w-1/3 relative z-10">
-                  <div className="bg-white p-6 rounded-lg shadow-lg mb-4">
-                    <h3 className="font-bold text-xl mb-2">
-                      Expanding Horizons
-                    </h3>
-                    <p>
-                      Our products now serve a growing range of livestock, and
-                      we're exploring opportunities for export.
-                    </p>
-                  </div>
-                  <div className="absolute -left-4 top-2 bg-[#9CDA0C] w-8 h-8 rounded-full shadow-lg"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Core Values Section: Cards with Hover Effect */}
-        <section className="mb-20 px-6 ">
-          <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
-            Our Core Values
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-lg shadow-md hover:scale-105 transform transition">
-              <h3 className="text-xl font-bold mb-2">Innovation</h3>
-              <p>
-                We embrace new technologies to create better solutions for the
-                farming industry.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md hover:scale-105 transform transition">
-              <h3 className="text-xl font-bold mb-2">Quality</h3>
-              <p>
-                Our feeds are of the highest quality, crafted to improve
-                livestock health and performance.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md hover:scale-105 transform transition">
-              <h3 className="text-xl font-bold mb-2">Sustainability</h3>
-              <p>
-                We prioritize environmentally responsible practices in our
-                operations and product development.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Mission and Vision: Circular Design */}
-        <section className="py-16 px-6  text-black">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Our Mission & Vision
-          </h2>
-          <div className="grid md:grid-cols-2">
-            {/* Mission Circle */}
-            <div className="text-center mb-4">
-              {/* class="bg-white p-6 transition transform hover:scale-105 hover:shadow-[6px_6px_12px_rgba(168,236,14,0.8)]" */}
-              <div className="bg-white w-40 h-40 p-6  rounded-full shadow-[4px_4px_10px_rgba(168,236,14,1)] dark:bg-gray-800 flex items-center justify-center mx-auto mb-5">
-                <p className="text-3xl text-black font-semibold">Mission</p>
-              </div>
-              <p className="text-xl font-medium text-center text-black">
-                Delivering top-tier animal nutrition <br /> while supporting
-                sustainable farming practices.
-              </p>
-            </div>
-
-            {/* Vision Circle */}
-            <div className="text-center">
-              <div className="bg-white w-40 h-40 p-6  rounded-full shadow-[4px_4px_10px_rgba(168,236,14,1)] dark:bg-gray-800 flex items-center justify-center mx-auto mb-4">
-                <p className="text-3xl text-black font-semibold">Vision</p>
-              </div>
-
-              <p className="text-xl font-medium text-center text-black">
-                To be Ethiopia's leading animal feed manufacturer <br /> with a
-                strong international presence.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Team Section: Leadership Team */}
-        <section className="py-10 px-6">
-          <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
-            Meet Our Leadership Team
-          </h2>
-          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
-            {/* CEO */}
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+          <div className="max-w-screen-xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+            <div className="lg:order-2">
               <img
-                src={profile3}
-                alt="CEO"
-                className="rounded-full mx-auto mb-4"
+                src={missionImage}
+                alt="Our Mission"
+                className="w-full h-auto rounded-xl shadow-lg mb-8 lg:mb-0 object-cover"
               />
-              <h3 className="text-xl font-bold mb-2"> Muslim Nasir</h3>
-              <p className="text-gray-600">Chief Executive Officer (CEO)</p>
-              <p className="mt-4 text-gray-700">
-                Muslim oversees the entire operations of Mati Feeds and ensures
-                the alignment of company strategies with its vision and mission.
+            </div>
+            <div className="lg:order-1 font-light text-gray-400">
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+                Our Mission
+              </h2>
+              <p className="mb-4 text-lg">
+                Our core mission is to deliver high-quality, high-precision
+                bearings and related solutions that reduce energy waste by
+                combating friction. We are a company committed to meticulous
+                production, from raw material to final assembly.
+              </p>
+              <p className="mb-4 text-lg">
+                As a member of the Europe Association of Automobile
+                Manufacturers and a national high-tech enterprise, we are
+                dedicated to setting the highest industry standards.
               </p>
             </div>
-
-            {/* CFO */}
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <img
-                src={profile3}
-                alt="CFO"
-                className="rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-bold mb-2">Abenezer Engda</h3>
-              <p className="text-gray-600">Chief operating officer (COO)</p>
-              <p className="mt-4 text-gray-700">
-                Abenezer Engda versees the daily operations of Mati Feeds,
-                ensuring efficient processes, optimal resource allocation, and
-                seamless execution of company strategies to achieve its vision
-                and mission
-              </p>
-            </div>
-
-            {/* CPO */}
-            {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <img
-                src={profile3}
-                alt="CPO"
-                className="rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-bold mb-2">Alice Johnson</h3>
-              <p className="text-gray-600">Chief Product Officer (CPO)</p>
-              <p className="mt-4 text-gray-700">
-                Alice leads product development and quality assurance, ensuring
-                that Mati Feeds offers the best nutritional solutions.
-              </p>
-            </div> */}
           </div>
         </section>
 
-        {/* Footer Section with CTA */}
-        <section className="py-5">
-          <div className="text-center">
-            <h2 className="text-3xl text-[#9CDA0C] font-bold mb-4">
-              Join Our Journey
+        {/* Industries We Serve Section - Card Layout */}
+        <section className="bg-[#000033] py-16 px-6 sm:px-8 lg:px-16">
+          <div className="relative z-10 max-w-7xl mx-auto text-center">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-12">
+              Industries We Serve
             </h2>
-            <p class="text-2xl font-light text-center text-black dark:text-white mb-12">
-              Together, we can build a more sustainable future in farming and
-              animal nutrition.
+            <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mb-12">
+              Our products are widely used across a diverse range of critical
+              industries, demonstrating our versatility and engineering
+              excellence.
             </p>
-            <button className="px-8 py-4 bg-white text-[#9CDA0C] font-bold rounded-lg shadow-md hover:bg-[#94cc0e] transition ease-in-out duration-300">
-              Contact Us
-            </button>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Industry Card 1 */}
+              <div className="group p-6 bg-white/10 rounded-xl shadow-xl hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="text-4xl mb-4">
+                  <span role="img" aria-label="car">
+                    🚗
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Automotive & Railway
+                </h3>
+                <p className="text-gray-300">
+                  Powering vehicles and railways with innovative bearing and
+                  sealing solutions.
+                </p>
+              </div>
+
+              {/* Industry Card 2 */}
+              <div className="group p-6 bg-white/10 rounded-xl shadow-xl hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="text-4xl mb-4">
+                  <span role="img" aria-label="factory">
+                    🏭
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Heavy Industries
+                </h3>
+                <p className="text-gray-300">
+                  Providing rugged and reliable solutions for power-generation,
+                  mining, and metallurgy.
+                </p>
+              </div>
+
+              {/* Industry Card 3 */}
+              <div className="group p-6 bg-white/10 rounded-xl shadow-xl hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="text-4xl mb-4">
+                  <span role="img" aria-label="agriculture">
+                    🚜
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Agriculture
+                </h3>
+                <p className="text-gray-300">
+                  Supporting sustainable farming with durable and efficient
+                  mechanical systems.
+                </p>
+              </div>
+
+              {/* Industry Card 4 */}
+              <div className="group p-6 bg-white/10 rounded-xl shadow-xl hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="text-4xl mb-4">
+                  <span role="img" aria-label="gear">
+                    ⚙️
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Machine Tools
+                </h3>
+                <p className="text-gray-300">
+                  Enabling high-precision manufacturing with cutting-edge
+                  bearing technology.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Our Team Section - Two-Column Layout */}
+        <section className="py-16 px-6 sm:px-8 lg:px-16">
+          <div className="max-w-screen-xl mx-auto lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+            <div className="lg:order-1">
+              <img
+                src={bearing}
+                alt="Our Team"
+                className="w-full h-auto rounded-xl shadow-lg mb-8 lg:mb-0 object-cover"
+              />
+            </div>
+            <div className="lg:order-2 font-light text-gray-400">
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+                Our Process
+              </h2>
+              <p className="mb-4 text-lg">
+                SKF Nubeyil is a leading global supplier of products, services,
+                and solutions, with rolling bearings, seals, mechatronics, and
+                lubrication systems.
+              </p>
+              <p className="mb-4 text-lg">
+                Our production process is meticulously controlled at every step,
+                from selecting the finest raw materials to the final product. We
+                ensure the highest level of quality through a rigorous process
+                of self-inspection, follow-up inspection, and full inspection.
+              </p>
+              <p className="mb-4 text-lg">
+                This commitment to excellence ensures that all our products
+                reach the highest standards, earning us the trust of businesses
+                worldwide.
+              </p>
+            </div>
           </div>
         </section>
       </div>

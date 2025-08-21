@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Products from "../components/Products";
+import Highlights from "../components/Highlights";
 import AboutUs from "../components/AboutUs";
 import WhatWeDo from "../components/WhatWeDo";
-import FAQPage from "../components/FAQPage";
+import Highlights2 from "../components/Highlights2";
 import Banner from "../components/Banner";
 import BannerTwo from "../components/BannerTwo";
 import Footer from "../components/Footer";
@@ -15,12 +15,11 @@ function LandingPage() {
       <Hero />
       <AboutUs />
       <WhatWeDo />
-      <Products />
-      <BannerTwo />
+      <Highlights />
+      {/* <Highlights2 /> */}
+      {/* <BannerTwo />
 
-      <Banner />
-
-      <FAQPage />
+      <Banner /> */}
 
       <Footer />
     </>

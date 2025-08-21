@@ -19,10 +19,10 @@ function ProductPage() {
   return (
     <>
       <Navbar />
-      <section className="relative py-32 bg-gradient-to-r from-[#9CDA0C] to-[#72B02C] text-white text-center">
+      {/* <section className="relative py-32 bg-gradient-to-r from-[#9CDA0C] to-[#72B02C] text-white text-center">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-40"
-          style={{ backgroundImage: `url('path_to_hero_image.jpg')` }} // Replace with actual hero image path
+          style={{ backgroundImage: `url('path_to_hero_image.jpg')` }} 
         ></div>
         <div className="relative z-10 max-w-screen-xl mx-auto px-6">
           <h1 className="text-5xl font-extrabold leading-tight mb-4 drop-shadow-xl">
@@ -39,10 +39,9 @@ function ProductPage() {
             </button>
           </Link>
         </div>
-      </section>
-
-      {/* Products Section with Enhanced Styling */}
-      <section className="py-16 bg-white dark:bg-gray-900">
+      </section> */}
+      productpage
+      {/* <section className="py-16 bg-white dark:bg-gray-900">
         <div className="max-w-screen-xl mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-[#9CDA0C] dark:text-white text-center mb-12">
             Explore Our Premium Feeds
@@ -52,9 +51,8 @@ function ProductPage() {
             growth and well-being.
           </p>
 
-          {/* Product Cards Layout */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-            {/* Poultry Feeds */}
+            
             <div
               className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl"
               onClick={() => scrollToSection("poultry")}
@@ -74,7 +72,6 @@ function ProductPage() {
               </p>
             </div>
 
-            {/* Dairy Feeds */}
             <div
               className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl"
               onClick={() => scrollToSection("dairy")}
@@ -94,7 +91,6 @@ function ProductPage() {
               </p>
             </div>
 
-            {/* Fattening Feeds */}
             <div
               className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl cursor-pointer"
               onClick={() => scrollToSection("fattening")}
@@ -115,16 +111,13 @@ function ProductPage() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Detailed Product Section */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
+      </section> */}
+      {/* <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-screen-xl mx-auto px-6">
           <h2 className="text-4xl font-extrabold text-[#9CDA0C] dark:text-white text-center mb-12">
             Dive Deeper Into Our Products
           </h2>
 
-          {/* Poultry Feeds Detailed Section */}
           <div
             id="poultry"
             className="flex flex-wrap justify-between items-center mb-16"
@@ -172,7 +165,6 @@ function ProductPage() {
             </div>
           </div>
 
-          {/* Dairy Feeds Detailed Section */}
           <div
             id="dairy"
             className="flex flex-wrap justify-between items-center mb-16"
@@ -220,7 +212,6 @@ function ProductPage() {
             </div>
           </div>
 
-          {/* Fattening Feeds Detailed Section */}
           <div
             id="fattening"
             className="flex flex-wrap justify-between items-center mb-16"
@@ -268,8 +259,7 @@ function ProductPage() {
             </div>
           </div>
         </div>
-      </section>
-
+      </section> */}
       <Footer />
     </>
   );

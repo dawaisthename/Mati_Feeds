@@ -2,12 +2,18 @@ import React from "react";
 import workers from "../assets/images/Artboard 9.jpg";
 import { Link } from "react-router-dom";
 import workers3 from "../assets/images/Artboard 10.jpg";
+import bg from "../assets/images/automate.jpg";
 
 function AboutUs() {
   return (
-    <section className="bg-[#000030] dark:bg-gray-900 relative">
+    <section className="bg-[#000033] dark:bg-[#000030] relative">
+      <img
+        src={bg}
+        alt="Background"
+        className="absolute top-0 left-0 w-full h-full object-cover opacity-90 pointer-events-none"
+      />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-[#000033]/70 pointer-events-none"></div>
 
       <section className="relative bg-white/80 dark:bg-gray-900/80 z-10">
         <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">

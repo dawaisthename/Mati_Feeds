@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import companyLogo from "../assets/images/logo.png";
+import companyLogo from "../assets/images/logo.png"; // Black logo
+import whitecompanyLogo from "../assets/images/Logo-SKF_white.png"; // White logo
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -32,9 +33,16 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex items-center justify-between mx-auto px-4 py-2">
           {/* Logo */}
           <Link to="/" className="flex items-center" onClick={closeMenu}>
+            {/* Desktop logo (switch on scroll) */}
+            <img
+              src={isScrolled ? companyLogo : whitecompanyLogo}
+              className="hidden md:block w-30 h-16 object-cover drop-shadow-md"
+              alt="Company Logo"
+            />
+            {/* Mobile logo (always black) */}
             <img
               src={companyLogo}
-              className="w-30 h-16 object-cover drop-shadow-md"
+              className="md:hidden w-30 h-16 object-cover drop-shadow-md"
               alt="Company Logo"
             />
           </Link>
@@ -76,31 +84,51 @@ const Navbar = () => {
           <div className="hidden md:flex md:space-x-10">
             <Link
               to="/"
-              className="text-white hover:text-blue-600 font-semibold transition"
+              className={`font-semibold transition ${
+                isScrolled
+                  ? "text-gray-800 hover:text-blue-600"
+                  : "text-white hover:text-blue-300"
+              }`}
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="text-white hover:text-blue-600 font-semibold transition"
+              className={`font-semibold transition ${
+                isScrolled
+                  ? "text-gray-800 hover:text-blue-600"
+                  : "text-white hover:text-blue-300"
+              }`}
             >
               About
             </Link>
             <Link
               to="/blog"
-              className="text-white hover:text-blue-600 font-semibold transition"
+              className={`font-semibold transition ${
+                isScrolled
+                  ? "text-gray-800 hover:text-blue-600"
+                  : "text-white hover:text-blue-300"
+              }`}
             >
               Blog
             </Link>
             <Link
               to="/product"
-              className="text-white hover:text-blue-600 font-semibold transition"
+              className={`font-semibold transition ${
+                isScrolled
+                  ? "text-gray-800 hover:text-blue-600"
+                  : "text-white hover:text-blue-300"
+              }`}
             >
               Product
             </Link>
             <Link
               to="/contact"
-              className="text-white hover:text-blue-600 font-semibold transition"
+              className={`font-semibold transition ${
+                isScrolled
+                  ? "text-gray-800 hover:text-blue-600"
+                  : "text-white hover:text-blue-300"
+              }`}
             >
               Contact
             </Link>
@@ -132,13 +160,7 @@ const Navbar = () => {
           >
             About
           </Link>
-          <Link
-            to="/blog"
-            onClick={closeMenu}
-            className="text-gray-900 hover:text-blue-600 font-bold text-lg"
-          >
-            Blog
-          </Link>
+
           <Link
             to="/product"
             onClick={closeMenu}

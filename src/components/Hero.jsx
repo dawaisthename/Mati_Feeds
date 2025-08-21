@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import white_logo from "../assets/images/Logo-SKF_white.png";
-import Sheger from "../assets/images/Sheger.png";
-import devbank from "../assets/images/devbank.png";
-import bejia from "../assets/images/bejia.png";
-import ata from "../assets/images/ata.png";
-import heroBg from "../assets/images/Artboard 5.jpg"; // import the overlay image
-import heroBg2 from "../assets/images/Artboard 4.jpg"; // import the overlay image
+import heroBg from "../assets/images/Artboard 5.jpg";
+import heroBg2 from "../assets/images/Artboard 4.jpg";
 function Hero() {
   return (
     <>
@@ -34,11 +30,12 @@ function Hero() {
               className="w-full max-w-xs h-auto object-cover"
               alt="Hero Illustration"
             />
-            <h3 className="max-w-2xl mb-6 font-bold text-[#9CDA0C] lg:mb-8 md:text-lg lg:text-2xl">
-              The friction fighters
+            <h3 className="max-w-2xl mb-6 font-bold text-white lg:mb-8 md:text-lg lg:text-2xl">
+              Built for power and durability
             </h3>
             <p className="max-w-2xl mb-6 text-gray-300 lg:mb-8 md:text-lg lg:text-xl">
-              we fight friction to move the world forward
+              At SKF NUBEYIL, our purpose is simple, yet profound: we fight
+              friction to move the world forward.
             </p>
             <Link to="contact">
               <button className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#000030] rounded-lg bg-white hover:bg-white hover:text-[#9CDA0C] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300">

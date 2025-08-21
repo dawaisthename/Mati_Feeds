@@ -5,68 +5,68 @@ import Footer from "../components/Footer";
 
 function ContactPage() {
   // State for form data
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  // State for status message (success/error)
-  const [status, setStatus] = useState(null);
+  // // State for status message (success/error)
+  // const [status, setStatus] = useState(null);
 
-  // Reference for the form
-  const form = useRef();
+  // // Reference for the form
+  // const form = useRef();
 
-  // Handle form input changes
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value, // Update state correctly
-    }));
-  };
+  // // Handle form input changes
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prevData) => ({
+  //     ...prevData,
+  //     [name]: value, // Update state correctly
+  //   }));
+  // };
 
-  // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // // Handle form submission
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    // Validation: Ensure all fields are filled
-    if (!formData.name || !formData.email || !formData.message) {
-      setStatus("Please fill in all fields.");
-      return;
-    }
+  //   // Validation: Ensure all fields are filled
+  //   if (!formData.name || !formData.email || !formData.message) {
+  //     setStatus("Please fill in all fields.");
+  //     return;
+  //   }
 
-    const serviceId = "service_kx9s4uo";
-    const templateId = "template_awyhhwa";
-    const publicKey = "WMQmPd6JPoTHz4QLo";
+  //   const serviceId = "service_kx9s4uo";
+  //   const templateId = "template_awyhhwa";
+  //   const publicKey = "WMQmPd6JPoTHz4QLo";
 
-    setStatus("Sending...");
+  //   setStatus("Sending...");
 
-    try {
-      const result = await emailjs.sendForm(
-        serviceId,
-        templateId,
-        form.current,
-        publicKey
-      );
-      if (result.status === 200) {
-        setStatus("Message sent successfully!");
-        setFormData({
-          name: "",
-          email: "",
-          message: "",
-        });
-      } else {
-        setStatus(
-          "There was an error sending your message. Please try again later."
-        );
-      }
-    } catch (error) {
-      setStatus(
-        "There was an error sending your message. Please try again later."
-      );
-    }
-  };
+  //   try {
+  //     const result = await emailjs.sendForm(
+  //       serviceId,
+  //       templateId,
+  //       form.current,
+  //       publicKey
+  //     );
+  //     if (result.status === 200) {
+  //       setStatus("Message sent successfully!");
+  //       setFormData({
+  //         name: "",
+  //         email: "",
+  //         message: "",
+  //       });
+  //     } else {
+  //       setStatus(
+  //         "There was an error sending your message. Please try again later."
+  //       );
+  //     }
+  //   } catch (error) {
+  //     setStatus(
+  //       "There was an error sending your message. Please try again later."
+  //     );
+  //   }
+  // };
 
   return (
     <>
@@ -75,9 +75,9 @@ function ContactPage() {
         <h2 className="text-3xl font-bold text-center text-[#9CDA0C] mb-8">
           Get in Touch
         </h2>
-
+        {/* 
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Contact Form Section */}
+          
           <div>
             <form ref={form} onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -143,7 +143,7 @@ function ContactPage() {
             )}
           </div>
 
-          {/* Contact Info and Map Section */}
+          
           <div className="space-y-8">
             <div>
               <h3 className="text-xl font-semibold">Contact Details</h3>
@@ -166,7 +166,7 @@ function ContactPage() {
               </div>
             </div>
 
-            {/* Map Section */}
+      
             <div>
               <h3 className="text-xl font-semibold">Our Location</h3>
               <div className="w-full h-96">
@@ -182,7 +182,7 @@ function ContactPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div>      */}
       </section>
       <Footer />
     </>

@@ -34,7 +34,6 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutusPage />} />
           <Route path="/product" element={<ProductPage />} />
-          <Route path="/blog" element={<BlogPage />} />
         </Routes>
       )}
     </div>

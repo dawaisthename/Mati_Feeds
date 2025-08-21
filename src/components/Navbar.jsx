@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center" onClick={closeMenu}>
             <img
               src={companyLogo}
-              className="w-28 h-16 object-cover drop-shadow-md"
+              className="w-30 h-16 object-cover drop-shadow-md"
               alt="Company Logo"
             />
           </Link>

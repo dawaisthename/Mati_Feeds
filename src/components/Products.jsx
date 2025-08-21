@@ -8,8 +8,8 @@ function Products() {
   return (
     <section className="py-16 bg-[#000033] dark:bg-gray-900">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-4xl font-extrabold text-center text-[#9CDA0C] dark:text-white mb-12">
-          Our Products
+        <h2 className="text-4xl font-extrabold text-center text-[#ffff] dark:text-white mb-12">
+          What we do
         </h2>
         <p className="text-2xl font-light text-center text-dark dark:text-white mb-12">
           Mati Feeds specializes in high-quality animal feed production with an

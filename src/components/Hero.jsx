@@ -1,30 +1,47 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import home from "../assets/images/home.png";
+import white_logo from "../assets/images/Logo-SKF_white.png";
 import Sheger from "../assets/images/Sheger.png";
 import devbank from "../assets/images/devbank.png";
 import bejia from "../assets/images/bejia.png";
 import ata from "../assets/images/ata.png";
-
+import heroBg from "../assets/images/Artboard 5.jpg"; // import the overlay image
+import heroBg2 from "../assets/images/Artboard 4.jpg"; // import the overlay image
 function Hero() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-[#000030] dark:bg-gray-900 md:-mt-20 min-h-screen flex items-center">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <section
+        className="relative md:-mt-20 min-h-screen flex items-center"
+        style={{
+          backgroundImage: `url(${heroBg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        {/* Dark overlay for readability */}
+        <div className="absolute inset-0 bg-[#000030] bg-opacity-70"></div>
+
+        {/* Hero content */}
+        <div className="relative z-10 grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-5xl text-white">
-              Mati Animal Feeds
-            </h1>
+            {/* <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-5xl text-white">
+              skf
+            </h1> */}
+            <img
+              src={white_logo}
+              className="w-full max-w-xs h-auto object-cover"
+              alt="Hero Illustration"
+            />
             <h3 className="max-w-2xl mb-6 font-bold text-[#9CDA0C] lg:mb-8 md:text-lg lg:text-2xl">
-              Guardian of animals
+              The friction fighters
             </h3>
             <p className="max-w-2xl mb-6 text-gray-300 lg:mb-8 md:text-lg lg:text-xl">
-              Empowering sustainable agriculture with quality feed products
-              designed for livestock health and growth.
+              we fight friction to move the world forward
             </p>
             <Link to="contact">
-              <button className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#9CDA0C] hover:bg-white hover:text-[#9CDA0C] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300">
+              <button className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#000030] rounded-lg bg-white hover:bg-white hover:text-[#9CDA0C] hover:shadow-lg transition duration-300 ease-in-out focus:ring-4 focus:ring-primary-300">
                 Get In Touch
                 <svg
                   className="w-5 h-5 ml-2 -mr-1"
@@ -41,18 +58,18 @@ function Hero() {
               </button>
             </Link>
           </div>
-          <div className="lg:col-span-5 flex justify-center mt-8 lg:mt-0">
+          {/* <div className="lg:col-span-5 flex justify-center mt-8 lg:mt-0">
             <img
-              src={home}
+              src={white_logo}
               className="w-full max-w-xs h-auto object-cover"
               alt="Hero Illustration"
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* Our Clients Section */}
-      <section className="bg-white dark:bg-gray-900 py-16">
+      {/* <section className="bg-white dark:bg-gray-900 py-16">
         <div className="max-w-screen-xl mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-center text-[#9CDA0C] mb-4">
             Our Clients
@@ -78,7 +95,7 @@ function Hero() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
